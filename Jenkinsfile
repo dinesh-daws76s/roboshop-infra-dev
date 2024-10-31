@@ -4,12 +4,7 @@ pipeline {
             label 'java-agent'
         }
     }
-    options {
-        ansiColor('xterm')
-        // timeout(time: 1, unit: 'HOURS')
-        // disableConcurrentBuilds()
-    }
-    // build
+
     stages {
         stage('VPC') {
             steps {
