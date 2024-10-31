@@ -4,11 +4,11 @@ pipeline {
             label 'java-agent'
         }
     }
-    options {
-        ansiColor('xterm')
+   // options {
+      //  ansiColor('xterm')
         // timeout(time: 1, unit: 'HOURS')
         // disableConcurrentBuilds()
-    }
+    //}
     // build
     stages {
         stage('DB ALB') {
